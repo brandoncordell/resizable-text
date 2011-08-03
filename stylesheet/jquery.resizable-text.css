@@ -1,0 +1,40 @@
+
+.resizer { 
+	border: 2px solid #cecece; 
+	float: right; 
+	list-style: none; 
+	margin: 0 0 10px 10px; 
+	padding: 10px; 
+}
+.resizer li { 
+	float: left; 
+	line-height: 26px; 
+	margin-right: 5px; 
+}
+.resizer .small { 
+	font-size: 12px; 
+	line-height: 26px; 
+}
+.resizer .large { 
+	margin-right: 0; 
+}
+.resizer .small a, .medium .resizer .medium a, .large .resizer .large a { 
+	color: #000; 
+	text-decoration: none; 
+}
+.medium .resizer .small a, .large .resizer .small a { 
+	color: #1D4C9F; 
+	text-decoration: underline; 
+}
+
+.medium { font-size: 16px; line-height: 22px; }
+.large { font-size: 20px; line-height: 26px; }
+
+.medium h1 { font-size: 18px; line-height: 40px; }
+.large h1 { font-size: 21px; line-height: 44px; }
+
+.medium h2 { font-size: 15px; line-height: 34px; }
+.large h2 { font-size: 18px; line-height: 38px; }
+
+.medium h3 { font-size: 12px; line-height: 28px; }
+.large h3 { font-size: 15px; line-height: 32px; }
